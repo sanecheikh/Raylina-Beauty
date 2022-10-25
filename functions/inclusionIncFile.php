@@ -1,10 +1,12 @@
 
 <?php
-// Exemple de $defaultPage : liste/listeEleve, login, planning/planningEleve
+// Exemple de $defaultPage :salon/, login
 function inclusionIncFile($defaultPage){
     $files = array_merge(glob('./includes/*/*.inc.php'),glob('./includes/*.inc.php'));;
     $page = $_GET['page'] ?? $defaultPage;
     $pageTest = './includes/' . $page .'.inc.php';
+
+   
 
     if (in_array($pageTest,$files))
     {
@@ -13,7 +15,7 @@ function inclusionIncFile($defaultPage){
     else 
     {
         require "./includes/$defaultPage.inc.php";
-    } 
+    }  
 }
 
     ?>
