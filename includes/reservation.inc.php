@@ -7,6 +7,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="css/rgpd.css">
+	<link rel="stylesheet" href="css/rgpd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+        <script type="text/javascript" src="js/rgpd.js"></script>
+
 
 
 <style id="ct-main-styles-inline-css">[data-header*="type-1"] {--has-transparent-header:1;}[data-prefix="single_page"] {background-color:var(--paletteColor3);background-image:none;}</style>
@@ -25,6 +43,20 @@
 				<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15"><path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"/></svg>
 			</button>
 		</div>
+		
+
+ </div></div></div></div></div></div>
+ <div data-device="mobile" data-transparent="" >
+	<!-- <div class="ct-sticky-container"><div data-sticky="shrink"> -->
+		<div data-row="middle" data-column-set="2" data-transparent-row="yes" >
+			<div class="ct-container" >
+				<div data-column="start" data-placements="1" >
+					<div data-items="primary" >
+<div	class="site-branding"
+	data-id="logo" 		itemscope="itemscope" itemtype="index.php?page=salon" >
+
+			<a href="index.php?page=salon" class="site-logo-container" rel="home"><img width="912" height="912" src="./assets/img/Logo 500x500  px (3).jpeg" class="default-logo" alt="raylina beauty et soins" /></a>	
+	</div>
 	
 
 <div class="ct-header-socials "data-id="socials" >
@@ -32,27 +64,6 @@
 	
 		<div class="ct-social-box" data-icon-size="custom" data-color="custom" data-icons-type="simple" >
 			
-			
-							
-				<a href="https://www.facebook.com/lamaisonbysbarber" data-network="facebook" aria-label="Facebook" target="_blank" rel="noopener" >
-					<span class="ct-icon-container" >
-				<svg
-				width="20px"
-				height="20px"
-				viewBox="0 0 20 20"
-				aria-hidden="true">
-					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/>
-				</svg>
-			</span><span class="ct-label" hidden="" >Facebook</span>				</a>
-							
-				<a href="https://www.instagram.com/lamaisonbysbarber" data-network="instagram" aria-label="Instagram" target="_blank" rel="noopener" >
-					<span class="ct-icon-container" >
-		<svg class="ct-icon"	width="18" height="14" viewBox="0 0 18 14"	aria-hidden="true"data-type="type-1">
-
-		<rect y="0.00" width="18" height="1.7" rx="1"/>
-		<rect y="6.15" width="18" height="1.7" rx="1"/>
-		<rect y="12.3" width="18" height="1.7" rx="1"/>
-	</svg>
 </button>
 </div></div></div></div></div></div></div></header>
 	<main id="main" class="site-main hfeed" >
@@ -69,7 +80,7 @@ data-content="normal"		>
 <img loading="lazy" width="1536" height="2049" class="wp-block-cover__image-background wp-image-2525" alt="" src="./assets/img/pmtkoufa.jpg" style="object-position:49% 70%" data-object-fit="cover" data-object-position="49% 70%" srcset="./assets/img/pmtkoufa.jpg, ./assets/img/pmtkoufa.jpg-225x300.jpg 225w, ./assets/img/pmtkoufa.jpg2-768x1025.jpg 768w,
   sizes="(max-width: 1536px) 100vw, 1536px/>
 <div class="wp-block-cover__inner-container">
-<h2 class="has-text-align-left has-text-color" style="color:#ffffff"><a href="https://sbarber.fr/prestations-femme" data-type="page" data-id="2039">Les Prestations Femme</a></h2>
+<h2 class="has-text-align-left has-text-color" style="color:#ffffff"><a href="index.php?page=salonr.fr/prestations-femme" data-type="page" data-id="2039">Les Prestations Femme</a></h2>
 </div></div>
 </div>
 
@@ -79,7 +90,7 @@ data-content="normal"		>
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span>
 <img loading="lazy" width="1536" height="2049" class="wp-block-cover__image-background wp-image-1574" alt="" src="./assets/img/coupehome.jpg" data-object-fit="cover" srcset="./assets/img/coupehome.jpg  1536w",
  /><div class="wp-block-cover__inner-container">
-<h2 class="has-text-align-left"><a href="https://sbarber.fr/prestations-homme" data-type="page" data-id="2044">Les Prestations homme</a></h2>
+<h2 class="has-text-align-left"><a href="index.php?page=salon/prestations-homme" data-type="page" data-id="2044">Les Prestations homme</a></h2>
 </div></div>
 </div>
 </div>
@@ -102,6 +113,81 @@ data-content="normal"		>
         <input type="submit" value="Submit">
       </form>
     </div>
+	<div id="bandeau_cookie" class="cookie_deactivate">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 cookie_spacer">
+            <span class="cookie_text">Ce site utilise des cookies afin que vous puissiez avoir la meilleure expérience
+                de navigation possible. En poursuivant votre navigation ou en cliquant sur l'option "ACCEPTER", vous
+                consentez à son utilisation.</span>
+
+        </div>
+        <div class="col-md-12 col-xs-12 container_cookie-btn">
+            <button id="acceptCookies" class="btn btn-advanced"> Accepter </button>
+            <button id="personnalize_my_cookie" type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#rgpd_modal">
+                Personnaliser
+            </button>
+            <a href="/rgpd" class="btn btn-advanced">En savoir plus</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="rgpd_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Gestionnaire des cookies</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row ">
+                    <div class="col-md-12 gestion_cookie-div-text">
+                        <h2>Je personnalise mes préférences</h2>
+                        <p>Les fonctionnalités de ce site listées ci-dessous s’appuient sur des services proposés par
+                            des tiers.
+                            Si vous donnez votre accord (consentement) ces cookies, ces tiers collecteront et
+                            utiliseront vos données de navigation pour des finalités qui leur sont propres, conformément
+                            à notre <a href="/rgpd">politique de confidentialité</a>.
+                            Cette page vous permet de donner ou de retirer votre consentement, soit globalement soit
+                            finalité par finalité.</p>
+                    </div>
+                </div>
+                <div class="separator_section"></div>
+
+                <div class="row gestion_cookie-div">
+
+                    <div class="col-md-6 text-left">
+                        <h2>
+                            Google Analystics
+                        </h2>
+                        <small>
+                            Permet de récolter des statistiques de fréquentation du site. Ces données sont anonymes et
+                            nous permettent d'améliorer votre expérience utilisateur.
+                        </small>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="GTMAllow" class="deny accept btn_cookie" data-authorize="true"
+                            data-name="Analytics">
+                            J'autorise
+                        </button>
+                        <button id="GTMDenied" class="deny refuse btn_cookie" data-authorize="false"
+                            data-name="Analytics">
+                            Je refuse
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="close_modal" type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button id="acceptcookies_modal" type="button" class="btn btn-primary">Confirmer mes choix</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

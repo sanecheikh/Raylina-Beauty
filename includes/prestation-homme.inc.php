@@ -2,12 +2,30 @@
     
 
 <!doctype html>
-<html lang="fr-FR" prefix="og: https://ogp.me/ns#">
+<html lang="fr-FR" prefix="#">
 <head>
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="css/rgpd.css">
+	<link rel="stylesheet" href="css/rgpd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+        <script type="text/javascript" src="js/rgpd.js"></script>
+
 
 	
 <!-- SEO par Rank Math - https://s.rankmath.com/home -->
@@ -16,7 +34,7 @@
 <meta name="robots" content="nofollow, noindex"/>
 <meta property="og:locale" content="fr_FR" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Prestations Homme - La Maison by S.Barber" />
+<meta property="og:title" content="Prestations Homme - salon raylina beauty" />
 <meta property="og:description" content="Réserver un créneau" />
 <meta property="og:url" content="index.php?page=salon/prestations-homme" />
 <meta property="og:site_name" content="La Maison by S.Barber" />
@@ -127,7 +145,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</svg>
 			</span><span class="ct-label" hidden="" >Snapchat</span>				</a>
 							
-				<a href="https://g.page/Lamaisonbysbarber?share" data-network="tripadvisor" aria-label="TripAdvisor" target="_blank" rel="noopener" >
+				<a href="index.php?page=salon" data-network="tripadvisor" aria-label="TripAdvisor" target="_blank" rel="noopener" >
 					<span class="ct-icon-container" >
 				<svg
 				width="20px"
@@ -152,6 +170,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<svg class="ct-icon" width="15" height="15" viewBox="0 0 20 20"><path d="M10,0L9.4,0.6L0.8,9.1l1.2,1.2l7.1-7.1V20h1.7V3.3l7.1,7.1l1.2-1.2l-8.5-8.5L10,0z"/></svg>	</a>
 
 	</div>
+	
 <div id="main-container">
 	<header id="header" class="ct-header" data-id="type-1" itemscope="" itemtype="https://schema.org/WPHeader" ><div data-device="desktop" data-transparent="" ><div class="ct-sticky-container"><div data-sticky="shrink"><div data-row="middle" data-column-set="2" data-transparent-row="yes" ><div class="ct-container" ><div data-column="start" data-placements="1" ><div data-items="primary" >
 
@@ -165,13 +184,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		
 <div class="hero-section" data-type="type-2" >
 			<figure>
-			<div class="ct-image-container"><img width="1918" height="1080" src="./assets/css/wp-content/uploads/2020/11/DSC08499-Copier.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="./assets/css//wp-content/uploads/2020/11/DSC08499-Copier.jpg 1918w, https://sbarber.fr/wp-content/uploads/2020/11/DSC08499-Copier-300x169.jpg 300w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1024x577.jpg 1024w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-768x432.jpg 768w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1536x865.jpg 1536w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1320x743.jpg 1320w" sizes="(max-width: 1918px) 100vw, 1918px" itemprop="image" /></div>		</figure>
+			<div class="ct-image-container"><img width="1918" height="1080" src="./assets/css/wp-content/uploads/2020/11/DSC08499-Copier.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="./assets/css/wp-content/uploads/2020/11/DSC08499-Copier.jpg 1918w, https://sbarber.fr/wp-content/uploads/2020/11/DSC08499-Copier-300x169.jpg 300w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1024x577.jpg 1024w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-768x432.jpg 768w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1536x865.jpg 1536w, ./assets/css//wp-content/uploads/2020/11/DSC08499-Copier-1320x743.jpg 1320w" sizes="(max-width: 1918px) 100vw, 1918px" itemprop="image" /></div>	</figure>
 	
 			<header class="entry-header ct-container-narrow">
 			<h1 class="page-title" title="Prestations Homme" itemprop="headline" >Prestations Homme</h1>
 			<nav class="ct-breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList" ><span class="first-item" itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" ><meta itemprop="position" content="1"><a href="index.php?page=salon" itemprop="item" ><span itemprop="name" >Salon</s></span></a><meta itemprop="url" content="https://sbarber.fr/"/><svg class="separator" width="8" height="8" viewBox="0 0 8 8">
 				<polygon points="2.5,0 6.9,4 2.5,8 "/>
-			</svg></span><span class="last-item" itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" ><meta itemprop="position" content="2"><span itemprop="name" >Prestations Homme</span><meta itemprop="url" content="https://sbarber.fr/prestations-homme"/></span>			</nav>
+			</svg></span><span class="last-item" itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" ><meta itemprop="position" content="2"><span itemprop="name" >Prestations Homme</span><meta itemprop="url" content="https://raylinabeauty.business.site/"/></span>		
+			</nav>
 
 				</header>
 	</div>
@@ -584,6 +604,82 @@ var ct_localizations = {"ajax_url":"https:\/\/sbarber.fr\/wp-admin\/admin-ajax.p
 			}]
 		};
 	</script>
+				 <div id="bandeau_cookie" class="cookie_deactivate">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 cookie_spacer">
+            <span class="cookie_text">Ce site utilise des cookies afin que vous puissiez avoir la meilleure expérience
+                de navigation possible. En poursuivant votre navigation ou en cliquant sur l'option "ACCEPTER", vous
+                consentez à son utilisation.</span>
+
+        </div>
+        <div class="col-md-12 col-xs-12 container_cookie-btn">
+            <button id="acceptCookies" class="btn btn-advanced"> Accepter </button>
+            <button id="personnalize_my_cookie" type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#rgpd_modal">
+                Personnaliser
+            </button>
+            <a href="/rgpd" class="btn btn-advanced">En savoir plus</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="rgpd_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Gestionnaire des cookies</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row ">
+                    <div class="col-md-12 gestion_cookie-div-text">
+                        <h2>Je personnalise mes préférences</h2>
+                        <p>Les fonctionnalités de ce site listées ci-dessous s’appuient sur des services proposés par
+                            des tiers.
+                            Si vous donnez votre accord (consentement) ces cookies, ces tiers collecteront et
+                            utiliseront vos données de navigation pour des finalités qui leur sont propres, conformément
+                            à notre <a href="/rgpd">politique de confidentialité</a>.
+                            Cette page vous permet de donner ou de retirer votre consentement, soit globalement soit
+                            finalité par finalité.</p>
+                    </div>
+                </div>
+                <div class="separator_section"></div>
+
+                <div class="row gestion_cookie-div">
+
+                    <div class="col-md-6 text-left">
+                        <h2>
+                            Google Analystics
+                        </h2>
+                        <small>
+                            Permet de récolter des statistiques de fréquentation du site. Ces données sont anonymes et
+                            nous permettent d'améliorer votre expérience utilisateur.
+                        </small>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="GTMAllow" class="deny accept btn_cookie" data-authorize="true"
+                            data-name="Analytics">
+                            J'autorise
+                        </button>
+                        <button id="GTMDenied" class="deny refuse btn_cookie" data-authorize="false"
+                            data-name="Analytics">
+                            Je refuse
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="close_modal" type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button id="acceptcookies_modal" type="button" class="btn btn-primary">Confirmer mes choix</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </body>
 
