@@ -6,6 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="css/rgpd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
 	
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
         <script type="text/javascript" src="js/rgpd.js"></script>
@@ -100,33 +113,33 @@
 </div>
 </div>
 
+            <div id="container" style="width:50%;position:relative;top: 15%;left: 25%;margin-top: 2%;margin-bottom: 18%;border-radius: 30px;">
+                <form action="index.php?page=contat" method="post">
+                    <label for="name">Name:*</label><br> <input type="text" name="name" required><br><br>
+                    <label for="email">Email:*</label><br> <input type="text" name="email" required><br><br>
+                    <label for="subject">Subject:*</label><br> <input type="text" name="subject" required><br><br>
+                    <label for="message">Message:*</label><br><textarea rows="4" cols="30" name="message" required></textarea><br>
+                    <br>
+                    <input type="submit" value="Submit" style="padding: 4px 70px;">
+                    <input type="hidden" name="frmContact" />
+                </form>
+            </div>
+            <br>
+            <div class="location col-sm">
+                <h5>Location</h5> <br>
+                <p><span class="hvr-icon-hang"><i class="fas fa-map-marker-alt hvr-icon"></i></span> 55 Rue de la République
+                    76000 Rouen
+                    France</p><br>
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ1QBHVH_e4EcRPbK63n3gIZw&key=..." width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div><br>
+            <div class="hours col-sm">
+                <h5>Heures d'ouverture</h5> <br>
+                <p>Lundi 09 H - 19H <br> Mardi 09 H- 19H <br> Mercredi 09H- 19H <br> Jeudi 09 AM - 19 PM <br> Vendredi 09 H- 19H <br> Samedi 09 H- 19H </p>
+                <p>Telphone: 09 82 47 92 74</p>
 
- <form action="index.php?page=contat" method="post">
-<label for="name">Name:*</label><br> <input type="text" name="name" required><br><br>
-<label for="email">Email:*</label><br> <input type="text" name="email" required><br><br>
-<label for="subject">Subject:*</label><br> <input type="text" name="subject" required><br><br>
-<label for="message">Message:*</label><br><textarea rows="4" cols="30" name="message" required></textarea><br>
-<br>
-<input type="submit" value="Submit">
-<input type="hidden" name="frmContact" />
-
-</div>
-        <br>
-        <div class="location col-sm">
-           <h5>Location</h5> <br>
-           <p><span class="hvr-icon-hang"><i class="fas fa-map-marker-alt hvr-icon"></i></span> 55 Rue de la République
-            76000 Rouen
-            France</p><br>
-           <iframe src="https://maps.googleapis.com/maps/https://goo.gl/maps/5TXENTPsU6pYwZor9" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div><br>
-        <div class="hours col-sm">
-           <h5>Heures d'ouverture</h5> <br>
-           <p>Lundi 09 H - 19H <br> Mardi 09 H- 19H <br> Mercredi 09H- 19H <br> Jeudi 09 AM - 19 PM <br> Vendredi 09 H- 19H <br> Samedi 09 H- 19H </p>
-           <p>Telphone: 09 82 47 92 74</p>
-           
-           </div>
-    </div>
-</div>
+            </div>
+        </div>
+        </div>
     </main>
     <footer>
         <div class="container">
