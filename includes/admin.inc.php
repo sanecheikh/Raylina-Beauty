@@ -19,7 +19,6 @@ $users = $querySelect->lister($requete);
         <th>contact</th>
         <th>Email</th>
         <th>site</th>
-        
         <th>profile</th>
         <th>telephone</th>
     </thead>
