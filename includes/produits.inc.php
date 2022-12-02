@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="home page-template-default page page-id-2172 wp-embed-responsive stk--is-blocksy-theme ct-loading" data-link="type-4" data-prefix="single_page" data-header="type-1:sticky" data-footer="type-1:reveal" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<body class="home page-template-default page page-id-2172 wp-embed-responsive stk--is-blocksy-theme ct-loading"style="padding-left: 10% ;padding-right:10%;" data-link="type-4" data-prefix="single_page" data-header="type-1:sticky" data-footer="type-1:reveal" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
 	<div data-device="mobile" data-transparent="">
 		<!-- <div class="ct-sticky-container"><div data-sticky="shrink"> -->

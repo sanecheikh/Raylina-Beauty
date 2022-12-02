@@ -13,11 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="../assets/css/bootstrap-4.0.0//dist/css/bootstrap.min.css">
 <!-- <link rel="stylesheet" media="screen" href="./assets/css/style.css" /> -->
-     <?php 
-     loadCss();
-     ?>
-     
+<?php
+loadCss();
+?>    
       
    
 </head>
