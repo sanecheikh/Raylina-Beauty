@@ -60,22 +60,38 @@ class Admin
         
     }
     
-    public function ajouterEtablissement(string $nom, string $ville, string $idProf=null):string
+    public function ajouterproduit(string $nom, string $type, string $prix)
     {
 
         // Creation d'une ligne etablissements
-            $requete = "SELECT nom_etablissement,ville FROM etablissements;";
+            $requete = "SELECT nom FROM produit;";
             $resultQuery = $this->db->lister($requete);
 
-            if($resultQuery[0]['nom_etablissement'] === $nom && $resultQuery[0]['ville'] === $ville)
+            if($resultQuery[0]['nom'] === $nom )
             {
-                return "Cette etablissement est deja existant";
+                return "Cet produit est deja existant";
             }
 
-            $requete = "INSERT INTO etablissements (nom_etablissement,ville) VALUES ('$nom','$ville');";
+            $requete = "INSERT INTO produit (nom, type, prix) VALUES ('$nom','$type','$prix');";
             $this->db->inserer($requete);
-            return "Cette etablissement a bien été ajouter";
+            var_dump($requete);
+           // return "Cette etablissement a bien été ajouter";
     }
+     public function ajouterfacture(string $nom ,string $prestation, string $prix, string $produit, string $date, string $somme,int $client_id)
+     {
+     // creation d'une ligne de facture
+     $requete = "SELECT nom FROM facture;";
+     $resultQuery = $this->db->lister($requete);
+
+     if($resultQuery[0]['nom']===$nom)
+     {
+        return "cette facture est deja existant ";
+
+     }
+     $requete ="INSERT INTO facture (nom,prestation,prix,produit,somme, date,Client_id_client)  VALUES ('$nom','$prestation','$prix','$produit','$somme','$date','$client_id');";
+     //var_dump($requete);
+     $this->db->inserer($requete);
+}
 
     public function ajouterEnseignant(string $identifiant, string $password, string $nom , string $prenom,string $mail):string
     {
@@ -114,8 +130,8 @@ class Admin
         return "Le compte a bien été crée, valider votre email";
     }
 
-    public function ajouterproduit(string $prix,  string $nom , 
-     string $quality):string
+    /* public function ajouterproduit(string $prix,  string $nom , 
+     string $):string
     {
         // Generation unique token et date
         $date = date("Y-m-d H:i:s");
@@ -136,7 +152,7 @@ class Admin
         $idCompte = $this->db->lister($requete);
         $idCompte= $idCompte[0]['id_compte'];
         $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-        $requete = "INSERT INTO (identifiant,password,nom,prenom,email,id_promotion,id_compte) VALUES ('$identifiant','$passwordHash','$nom','$prenom','$mail','$id_promotion','$idCompte');";
+        $requete = "INSERT INTO eleves (identifiant,password,nom,prenom,email,id_promotion,id_compte) VALUES ('$identifiant','$passwordHash','$nom','$prenom','$mail','$id_promotion','$idCompte');";
         $this->db->inserer($requete);
         
         //Envoi email contenant le token + email pour la verification
@@ -152,7 +168,7 @@ class Admin
         sendMail($toEmail,$fromEmail,$sujetEmail,$messageEmail,$headers);
         return "Le compte a bien été crée, valider votre email";
 
-    }
+    } */
 
     public function verifUtilisateur(string $mail, string $token)
     {

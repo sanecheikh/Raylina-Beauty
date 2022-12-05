@@ -2893,3 +2893,345 @@ Stack trace:
 #4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
 #5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.comptes' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT email FR...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(126): Sql->lister('SELECT email FR...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', 'Btyhgjh,k')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.comptes' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT id_compt...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(133): Sql->lister('SELECT id_compt...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', 'Btyhgjh,k')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(identifiant,password,nom,prenom,email,id_promotion,id_compte) VALUES ('','$2...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO (id...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(137): Sql->inserer('INSERT INTO (id...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', 'Btyhgjh,k')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', '70')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', '70')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', '70')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_produit' cannot be null in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', '70')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_produit' cannot be null in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012', 'B')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('fjhngcvjnerdsqt...', '1012301', 'B?BN')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '10', 'bon')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '10', 'Bon')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '30', 'B')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '12', 'Bo')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(77): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '12', 'Bo')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '12', 'Bo')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('meche', '12', 'bon')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun', '13', 'mpd')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reference' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun', '13', 'mpd')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun', '13', 'mpd')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun', '13', 'mpd')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun', '13', 'mpd')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun chambre', '24', '')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quality' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO pro...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(76): Sql->inserer('INSERT INTO pro...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterproduit.inc.php(44): Admin->ajouterproduit('parfun chambre', '24', '1')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prestation' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('coiffur', '358', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prestation' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('coiffur', '358', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (',coiffur','358','15','21/1...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('', 'coiffur', '358', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (',coiffur','358','15','21/1...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('', 'coiffur', '358', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (fatou',coupe cheveaux','50'...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('fatou', 'coupe cheveaux', '50', '15', '65', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (cheikh',rasta','75','1','05...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('cheikh', 'rasta', '75', '1', '78', '05/12/2022')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (cheikh',meche  longue','60'...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('cheikh', 'meche  longue', '60', '20', '80', '05/12/2022')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (cheikh',meche  longue','60'...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('cheikh', 'meche  longue', '60', '20', '80', '05/12/2022')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (mark',coupe barbe','15','0'...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(92): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('mark', 'coupe barbe', '15', '0', '15', '05/12/2022')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES (meche',B','15','1','21/12/2...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('meche', 'B', '15', '1', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nom,prestation,prix,produit,somme, date)  VALUES ('meche',B','15','1','21/12/...' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('meche', 'B', '15', '1', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'B','15','1','21/12/2000','400')' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('meche', 'B', '15', '1', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbsalon`.`facture`, CONSTRAINT `fk_Facture_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('meche', 'B', '15', '1', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbsalon`.`facture`, CONSTRAINT `fk_Facture_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('meche', 'B', '15', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbsalon`.`facture`, CONSTRAINT `fk_Facture_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO fac...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\classes\Admin.php(93): Sql->inserer('INSERT INTO fac...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\includes\ajouterFacture.inc.php(47): Admin->ajouterfacture('m&eacute;chas', 'B', '15', '15', '400', '21/12/2000')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#6 {main}

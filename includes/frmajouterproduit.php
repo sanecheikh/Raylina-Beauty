@@ -18,7 +18,7 @@ $tblQuery = $sqlQuery->lister("select * from produit");
             </div>
             <tr class="titreTable">
                 <th>NOM</th>
-                <th>QUALITY</th>
+                <th>TYPE</th>
                 <th>PRIX</th>
               
                
@@ -33,7 +33,7 @@ $tblQuery = $sqlQuery->lister("select * from produit");
                 </td>
                 <td>
                     <div>
-                        <input type="text" name="quality" id="quality" />
+                        <input type="text" name="type" id="Type" />
                     </div>
                 </td>
                 <td>

@@ -5,7 +5,7 @@ if(isset($_POST["frmAjouterproduit"]))
 {
     
     $nom = htmlentities(trim($_POST['nom']));
-    $quality = htmlentities(trim($_POST['quality']));
+    $type = htmlentities(trim($_POST['type']));
     $prix= htmlentities(trim($_POST['prix']));
    
    
@@ -41,7 +41,7 @@ if(isset($_POST["frmAjouterproduit"]))
     }
     else {
         $admin = new Admin();
-        echo $admin-> ajouterproduit($nom,$prix,$quality);
+        echo $admin-> ajouterproduit($nom,$prix,$type);
         $url = "index.php?page=produit";
         //echo redirection($url);
     }

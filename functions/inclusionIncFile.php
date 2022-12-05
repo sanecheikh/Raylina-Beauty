@@ -6,7 +6,7 @@ function inclusionIncFile($defaultPage){
     $page = $_GET['page'] ?? $defaultPage;
     $pageTest = './includes/' . $page .'.inc.php';
 
-   
+   //var_dump($page);
 
     if (in_array($pageTest,$files))
     {
