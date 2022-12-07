@@ -25,7 +25,7 @@
                 <input type="password" id="password2" name="password2" placeholder="Reentrer le mot de passe" style="border: 3px;border-style:solid" />
             </div>
             <div>
-                <input type="reset" value="Effacer" style="background-color: #4caf50;padding: 10px 70px;text-align:left;color:white"/>
+                <input type="reset" value="Effacer" style="background-color: #d3b105;padding: 10px 70px;text-align:left;color:black"/>
                 <input type="submit" value="Envoyer" style="padding: 4px 70px;" />
             </div>
             <input type="hidden" name="frmInscription" />

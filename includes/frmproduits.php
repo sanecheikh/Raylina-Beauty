@@ -60,7 +60,7 @@
 							<img loading="lazy" width="1536" height="2049" class="wp-block-cover__image-background wp-image-2525" alt="" src="./assets/img/produit.jpg" style="object-position:49% 70%" data-object-fit="cover" data-object-position="49% 70%" srcset="./assets/img/produit.jpg, ./assets/img/produit.jpg-225x300.jpg 225w, ./assets/img/produit.jpg2-768x1025.jpg 768w,
   sizes=" (max-width: 1536px) 100vw, 1536px />
 							<div class="wp-block-cover__inner-container">
-								<h2 class="has-text-align-left has-text-color" style="color:#ffffff"><a href="index.php?page=salon/Produits" data-type="page" data-id="2039">produits de chevelure</a></h2>
+								<h2 class="has-text-align-left has-text-color" style="color:#000000"><a href="index.php?page=salon/Produits" data-type="page" data-id="2039">produits de chevelure</a></h2>
 							</div>
 						</div>
 					</div>
@@ -68,12 +68,12 @@
 			</div>
 		</div>
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<ol class="carousel-indicators" >
+				<button data-target="#carouselExampleIndicators" data-slide-to="0" class="active"aria-current="true" aria-label="Slide 1"></button>
+				<button data-target="#carouselExampleIndicators" data-slide-to="1"aria-label="Slide 2"></button>
+				<button data-target="#carouselExampleIndicators" data-slide-to="2"aria-label="Slide 2"></button>
 			</ol>
-			<div class="carousel-inner" style ='width:70%'>
+			<div class="carousel-inner" style ='width:60%;margin-left:20%;'>
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="./assets/img/produit.jpg" alt="First slide" style="width:400px; height:300px">
 				</div>
@@ -107,14 +107,15 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="./assets/img/produit11.jpg" alt="Third slide">
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 			</div>
 			
 

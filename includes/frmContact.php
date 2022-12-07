@@ -19,6 +19,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
             integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
             crossorigin="anonymous"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
         <script type="text/javascript" src="js/rgpd.js"></script>
@@ -114,14 +115,21 @@
 </div>
 
             <div id="container" style="width:50%;position:relative;top: 15%;left: 25%;margin-top: 2%;margin-bottom: 18%;border-radius: 30px;">
-                <form action="index.php?page=contat" method="post">
-                    <label for="name">Name:*</label><br> <input type="text" name="name" required><br><br>
+                <form action="index.php?page=contact" method="post">
+                    <label for="nom">Name:*</label><br> <input type="text" name="nom" required><br><br>
                     <label for="email">Email:*</label><br> <input type="text" name="email" required><br><br>
-                    <label for="subject">Subject:*</label><br> <input type="text" name="subject" required><br><br>
+                    <label for="sujet">Subject:*</label><br> <input type="text" name="sujet" required><br><br>
                     <label for="message">Message:*</label><br><textarea rows="4" cols="30" name="message" required></textarea><br>
                     <br>
                     <input type="submit" value="Submit" style="padding: 4px 70px;">
                     <input type="hidden" name="frmContact" />
+                    <div statusMessage>    <?php if (! empty($db_msg)) { ?>
+              <p class='<?php echo $type_db_msg; ?>Message'><?php echo $db_msg; ?></p>
+            <?php } ?>
+            <?php if (! empty($mail_msg)) { ?>
+              <p class='<?php echo $type_mail_msg; ?>Message'><?php echo $mail_msg; ?></p>
+            <?php } ?>
+            </div></div>
                 </form>
             </div>
             <br>

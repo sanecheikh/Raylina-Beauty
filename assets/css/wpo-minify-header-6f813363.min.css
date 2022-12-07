@@ -117,7 +117,7 @@
   --fontFamily: "Marcellus SC", Sans-Serif;
   --fontWeight: 400;
   --fontSize: 20px;
-  --linkInitialColor: #ffffff;
+  --linkInitialColor: black;
   --mobile-menu-divider: none;
 }
 [data-header*="type-1"] #offcanvas {
@@ -275,14 +275,14 @@
   --form-selection-control-border-width: 1px;
   --form-selection-control-initial-color: var(--border-color);
   --form-selection-control-accent-color: var(--paletteColor1);
-  --paletteColor1: #eece2e;
-  --paletteColor2: #e39587;
-  --paletteColor3: #0f66e0;
+  --paletteColor1: black;
+  --paletteColor2:#d3b105;
+  --paletteColor3: #17a2b8;
   --paletteColor4: rgba(237, 205, 45, 0.14);
-  --paletteColor5: #e1ede6;
-  --paletteColor6: #f2f5f7;
-  --paletteColor7: #fafbfc;
-  --paletteColor8: #1a59e0;
+  --paletteColor5: black;
+  --paletteColor6:black;
+  --paletteColor7: black;
+  --paletteColor8:black;
   --color: var(--paletteColor5);
   --linkInitialColor: var(--paletteColor1);
   --linkHoverColor: var(--paletteColor2);
@@ -17258,12 +17258,12 @@ hr {
 .has-palette-color-8-border-color {
   border-color: var(--paletteColor8) !important;
 }
-@media (max-width: 689.98px) {
+@media (max-width: 768px) {
   .ct-hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 690px) and (max-width: 999.98px) {
+@media (min-width: 768px) and (max-width: 768px) {
   .ct-hidden-md {
     display: none !important;
   }

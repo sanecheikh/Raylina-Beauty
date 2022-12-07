@@ -1,6 +1,8 @@
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-inner {

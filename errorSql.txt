@@ -3235,3 +3235,59 @@ Stack trace:
 #4 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
 #5 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.utilisateurs' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT password...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(33): Sql->lister('SELECT password...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.utilisateurs' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT password...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(35): Sql->lister('SELECT password...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.utilisateurs' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT password...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(33): Sql->lister('SELECT password...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.utilisateurs' doesn't exist in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT password...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(33): Sql->lister('SELECT password...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO Mes...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(56): Sql->inserer('INSERT INTO Mes...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO Mes...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(57): Sql->inserer('INSERT INTO Mes...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(24): PDO->exec('INSERT INTO Mes...')
+#1 C:\xampp\htdocs\Raylina-Beauty-1\includes\contact.inc.php(57): Sql->inserer('INSERT INTO Mes...')
+#2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -14,7 +14,7 @@
 $querySelect = new Sql();
 $requete = "SELECT * FROM `planning` where Client_id_client is null;";
 $RDV = $querySelect->lister($requete);
-//var_dump($RDV[0]['date']);
+var_dump($RDV[0]['date']);
 
 $tblQuery = new Sql();
 $requeteEmp = "SELECT * from service ser
@@ -26,7 +26,11 @@ $tblService = $tblQuery->lister($requeteEmp);
 //var_dump("Je suis lq");
 //	for ($i = 0; $i < count($tblService); $i++) {
 ?> -->
-
+ <div class="site-branding"data-id="logo" itemscope="itemscope" itemtype="https://schema.org/Organization" >
+<a href="index.php?page=salon/" class="site-logo-container" rel="home"><img width="600" height="512" src="./assets/img/Logo 500x500  px.gif" class="default-logo" alt="raylina beauty et soins" /></a>	
+	
+</div>
+ </button>
 
 <body class="home page-template-default page page-id-2172 wp-embed-responsive stk--is-blocksy-theme ct-loading" data-link="type-4" data-prefix="single_page" data-header="type-1:sticky" data-footer="type-1:reveal" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
@@ -124,6 +128,7 @@ $tblService = $tblQuery->lister($requeteEmp);
                 <h5 class="modal-title" id="exampleModalLabel">Gestionnaire des cookies</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
+                    
                 </button>
             </div>
             <div class="modal-body">
