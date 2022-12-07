@@ -571,6 +571,7 @@
 
 
         <div class="entry-content">
+          
 
           <div class="wp-container-1 is-content-justification-center wp-block-buttons">
             <div class="wp-block-button"><a class="wp-block-button__link has-palette-color-3-color has-text-color" href="">Prenez rendez-vous</a></div>
@@ -1250,7 +1251,7 @@
                 data-target="#rgpd_modal">
                 Personnaliser
             </button>
-            <a href="/rgpd" class="btn btn-advanced">En savoir plus</a>
+            <a href="index.php?page=rgpd" class="btn btn-advanced">En savoir plus</a>
         </div>
 
     </div>

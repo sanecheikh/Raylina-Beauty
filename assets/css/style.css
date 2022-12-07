@@ -11,6 +11,7 @@ h1,
 h2,
 h3 {
   letter-spacing: 0.3rem;
+  color:black;
 }
 *{ font-family:"playfair"}
     body{
@@ -117,7 +118,7 @@ td {
 }
 
 #container {
-    border: 5px solid#d3b105;
+    border: 5px solid blue;
     display: flex;
     justify-content: center;
 }

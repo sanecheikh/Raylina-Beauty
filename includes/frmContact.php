@@ -232,7 +232,7 @@
         <div class="ct-container-full" data-content="normal">
             <div class="entry-content">
 
-                <h2 class="has-text-align-center has-text-color" style="color:#ffffff">Bienvenue Raylina Beauty</h2>
+                <h2 class="has-text-align-center has-text-color" style="color:black">Bienvenue Raylina Beauty</h2>
                 <div class="wp-container-3 wp-block-columns alignwide">
                     <div class="wp-container-1 wp-block-column">
                         <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span>

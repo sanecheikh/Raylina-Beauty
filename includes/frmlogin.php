@@ -17,7 +17,7 @@
             <span ><a href="#" style="color: black;">mot de passe oublier?</a></span><br><br>
             <input type="hidden" name="frmLogin"/>
             <h6>Pas encore de compte?</h6>
-            <span style="background-color: #4caf50;padding: 8px 60px;border-radius: 20px;"><a href="index.php?page=inscription" style="color: white;">S'INSCRIRE</a></span><br>
+            <span style="background-color: blue;padding: 8px 60px;border-radius: 20px;"><a href="index.php?page=inscription" style="color: white;">S'INSCRIRE</a></span><br>
             <br>
         </form>
     </div>

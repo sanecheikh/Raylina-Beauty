@@ -55,7 +55,7 @@
 
 		<div class="ct-container-full" data-content="normal">
 			<div class="entry-content">
-				<h2 class="has-text-align-center has-text-color" style="color:#ffffff">Bienvenue Raylina Beauty</h2>
+				<h2 class="has-text-align-center has-text-color" style="color:black">Bienvenue Raylina Beauty</h2>
 				<div class="wp-container-3 wp-block-columns alignwide">
 					<div class="wp-container-1 wp-block-column">
 						<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span>
@@ -69,6 +69,58 @@
 				</div>
 			</div>
 		</div>
+		<div class="col-md-12 wt-container-627614" id="wt-container-instance-2466825">
+			<div class="col-md-12 wt-container-634020" id="wt-container-instance-2487783">
+				<h1 class="col-md-12 wt-container-633727" id="wt-container-instance-2487788">
+					Nos produits :&nbsp;Raylina Beauty
+				</h1>
+				<h3 class="col-md-12 wt-container-633735" id="wt-container-instance-2487826">
+					D&eacute;couvrez des produits de soins de haute gamme&nbsp;!
+				</h3>
+				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487827">
+					<p><span style="font-family:Tahoma;">Dans le souci de votre satisfaction, votre coiffeuse vous propose des <a class="inherit-links" href="index.php?page=salon"><span style="color:#FFD700;"><strong><u>produits</u></strong></span></a> de qualite &eacute; pour prendre soin&nbsp;de votre chevelure.</span></p>
+
+					<p><span style="font-family:Tahoma;">Elle met &agrave; votre service une gamme produits sp&eacute;cial homme et femme &nbsp;qui vous garantit des cheveux parfaitement lisses avec un effet plus durable.</span></p>
+
+					<p><span style="font-family:Tahoma;">Dans votre salon de coiffure &agrave; <strong>Raylina Beauty, </strong>vous trouverez&nbsp;:</span></p>
+				</article>
+				<div class="col-md-12 wt-container-634016" id="wt-container-instance-2487779">
+					<div class="col-md-4 col-md-offset-0 wt-container-634017" id="wt-container-instance-2487780">
+						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487777">
+							<ul>
+								<li><span style="font-family:Tahoma;">Des Shampoings purifiants et antipelliculaires</span></li>
+							</ul>
+						</article>
+					</div>
+					<div class="col-md-4 col-md-offset-0 wt-container-634018" id="wt-container-instance-2487781">
+						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487778">
+							<ul>
+								<li><span style="font-family:Tahoma;">Des Gels forts pour structurer</span></li>
+							</ul>
+						</article>
+					</div>
+					<div class="col-md-4 col-md-offset-0 wt-container-634029" id="wt-container-instance-2487828">
+						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487829">
+							<ul>
+								<li><span style="font-family:Tahoma;">Des Cires de coiffage</span></li>
+							</ul>
+						</article>
+					</div>
+				
+		</div>
+		<div class="col-md-12 wt-container-627615" id="wt-container-instance-2466826">
+			<div class="col-md-12 col-md-offset-0 wt-container-627616" id="wt-container-instance-2466827">
+				<div class="col-md-12 wt-container-634021" id="wt-container-instance-2487784">
+					<div class="col-md-12 wt-container-633986" id="wt-container-instance-2487662">
+						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487683">
+							<img alt="" src="/userfiles/14975/mary-b-logo.png" style="max-width: 350px; width: 100%;" />
+						</article>
+
+
+
+					</div>
+				</div>
+
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators" >
 				<button data-target="#carouselExampleIndicators" data-slide-to="0" class="active"aria-current="true" aria-label="Slide 1"></button>
@@ -119,6 +171,14 @@
     <span class="visually-hidden">Next</span>
   </button>
 			</div>
+			</div>
+				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487839">
+					<p><span style="font-family:Tahoma;">Pour plus de d&eacute;tails ou pour toute prise de rendez-vous, veuillez contacter votre <strong><u><a class="inherit-links" href="index.php?page=salon/nous-contacter"><span style="color: 	#FFD700;">salon de coiffure  &agrave; Raylina Beauty:  55 rue de la republique 76100 rouen, tel:09 82 47 92 74&nbsp;: Zeyna </span></a>.</u></strong></span></p>
+				</article>
+				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487875">
+					<a class="inherit-links" href="raylina-beauty/" target="_blank"><img alt="" class="float-shadow" src="/userfiles/14975/Lisap.jpg" style="max-width: 250px; width: 100%;" /></a>
+				</article>
+			</div>
 			
 
 		</div>
@@ -137,64 +197,7 @@
 				});
 				// ]]>
 			</script>
-			 <div class="col-md-12 wt-container-627614" id="wt-container-instance-2466825">
-			<div class="col-md-12 wt-container-634020" id="wt-container-instance-2487783">
-				<h1 class="col-md-12 wt-container-633727" id="wt-container-instance-2487788">
-					Nos produits :&nbsp;Raylina Beauty
-				</h1>
-				<h3 class="col-md-12 wt-container-633735" id="wt-container-instance-2487826">
-					D&eacute;couvrez des produits de soins de haute gamme&nbsp;!
-				</h3>
-				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487827">
-					<p><span style="font-family:Tahoma;">Dans le souci de votre satisfaction, votre coiffeuse vous propose des <a class="inherit-links" href="index.php?page=salon/nos-produits"><span style="color:#ffffff;"><strong><u>produits</u></strong></span></a> de qualite &eacute; pour prendre soin&nbsp;de votre chevelure.</span></p>
-
-					<p><span style="font-family:Tahoma;">Elle met &agrave; votre service une gamme <a class="inherit-links" href="salon" target="_blank"><strong><u>Produits</u></strong></a> sp&eacute;cial homme&nbsp;qui vous garantit des cheveux parfaitement lisses avec un effet plus durable.</span></p>
-
-					<p><span style="font-family:Tahoma;">Dans votre salon de coiffure &agrave; <strong>Raylina Beauty, </strong>vous trouverez&nbsp;:</span></p>
-				</article>
-				<div class="col-md-12 wt-container-634016" id="wt-container-instance-2487779">
-					<div class="col-md-4 col-md-offset-0 wt-container-634017" id="wt-container-instance-2487780">
-						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487777">
-							<ul>
-								<li><span style="font-family:Tahoma;">Des Shampoings purifiants et antipelliculaires</span></li>
-							</ul>
-						</article>
-					</div>
-					<div class="col-md-4 col-md-offset-0 wt-container-634018" id="wt-container-instance-2487781">
-						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487778">
-							<ul>
-								<li><span style="font-family:Tahoma;">Des Gels forts pour structurer</span></li>
-							</ul>
-						</article>
-					</div>
-					<div class="col-md-4 col-md-offset-0 wt-container-634029" id="wt-container-instance-2487828">
-						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487829">
-							<ul>
-								<li><span style="font-family:Tahoma;">Des Cires de coiffage</span></li>
-							</ul>
-						</article>
-					</div>
-				</div>
-				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487839">
-					<p><span style="font-family:Tahoma;">Pour plus de d&eacute;tails ou pour toute prise de rendez-vous, veuillez contacter votre <strong><u><a class="inherit-links" href="index.php?page=salon/nous-contacter"><span style="color:#ffffff;">salon de coiffure mixte &agrave; Raylina Beauty &nbsp;: Zeyna </span></a>.</u></strong></span></p>
-				</article>
-				<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487875">
-					<a class="inherit-links" href="raylina-beauty/" target="_blank"><img alt="" class="float-shadow" src="/userfiles/14975/Lisap.jpg" style="max-width: 250px; width: 100%;" /></a>
-				</article>
-			</div>
-		</div>
-		<div class="col-md-12 wt-container-627615" id="wt-container-instance-2466826">
-			<div class="col-md-12 col-md-offset-0 wt-container-627616" id="wt-container-instance-2466827">
-				<div class="col-md-12 wt-container-634021" id="wt-container-instance-2487784">
-					<div class="col-md-12 wt-container-633986" id="wt-container-instance-2487662">
-						<article class="col-md-12 wt-container-627612" id="wt-container-instance-2487683">
-							<img alt="" src="/userfiles/14975/mary-b-logo.png" style="max-width: 350px; width: 100%;" />
-						</article>
-
-
-
-					</div>
-				</div>
+			
 			</div>
 	</main>
 	<div id="bandeau_cookie" class="cookie_deactivate">
