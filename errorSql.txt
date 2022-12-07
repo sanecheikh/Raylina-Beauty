@@ -2830,6 +2830,7 @@ Stack trace:
 #4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
 #5 {main}
 >>>>>>> upstream/developpe
+<<<<<<< HEAD
 PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php:37
 Stack trace:
 #0 C:\xampp\htdocs\Raylina-Beauty-1\classes\Sql.php(37): PDO->query('SELECT * FROM p...')
@@ -3290,4 +3291,597 @@ Stack trace:
 #2 C:\xampp\htdocs\Raylina-Beauty-1\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
 #3 C:\xampp\htdocs\Raylina-Beauty-1\includes\main.php(8): inclusionIncFile('salon')
 #4 C:\xampp\htdocs\Raylina-Beauty-1\index.php(11): require_once('C:\\xampp\\htdocs...')
+=======
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(14): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(14): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(14): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`dbsalon`.`planning`, CONSTRAINT `fk_planning_Client1` FOREIGN KEY (`Client_id_client`) REFERENCES `client` (`id_client`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('DELETE FROM cli...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\supprimer.inc.php(17): Sql->inserer('DELETE FROM cli...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Admin-salon_nom'='Raylina-beauty' where id_planning = ''' at line 1 in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(24): PDO->exec('UPDATE planning...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\confirmerRDV.inc.php(18): Sql->inserer('UPDATE planning...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin-salon_nom' in 'where clause' in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('select * from p...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(12): Sql->lister('select * from p...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin-salon_nom' in 'where clause' in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('select * from p...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(12): Sql->lister('select * from p...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(13): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin-salon_nom' in 'where clause' in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('select * from p...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(12): Sql->lister('select * from p...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin-salon_nom' in 'where clause' in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('select * from p...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(12): Sql->lister('select * from p...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbsalon.eployee' doesn't exist in C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php:37
+Stack trace:
+#0 C:\xampp\htdocs\Raylina-Beauty\classes\Sql.php(37): PDO->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\Raylina-Beauty\includes\admin.inc.php(14): Sql->lister('SELECT * FROM `...')
+#2 C:\xampp\htdocs\Raylina-Beauty\functions\inclusionIncFile.php(13): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Raylina-Beauty\includes\main.php(8): inclusionIncFile('salon')
+#4 C:\xampp\htdocs\Raylina-Beauty\index.php(11): require_once('C:\\xampp\\htdocs...')
+>>>>>>> 35903cfa77fe9f63ca76ff147dc2c918dda68c6c
 #5 {main}
