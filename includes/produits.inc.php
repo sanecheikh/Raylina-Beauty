@@ -2,6 +2,14 @@
 <html lang="fr-FR">
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="css/rgpd.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -54,7 +62,7 @@
 							<img loading="lazy" width="1536" height="2049" class="wp-block-cover__image-background wp-image-2525" alt="" src="./assets/img/produit.jpg" style="object-position:49% 70%" data-object-fit="cover" data-object-position="49% 70%" srcset="./assets/img/produit.jpg, ./assets/img/produit.jpg-225x300.jpg 225w, ./assets/img/produit.jpg2-768x1025.jpg 768w,
   sizes=" (max-width: 1536px) 100vw, 1536px />
 							<div class="wp-block-cover__inner-container">
-								<h2 class="has-text-align-left has-text-color" style="color:#000000"><a href="index.php?page=salon/Produits" data-type="page" data-id="2039">produits de chevelure</a></h2>
+								<h2 class="has-text-align-left has-text-color" style="color:#000000"><a href="index.php?page=salon" data-type="page" data-id="2039">produits de chevelure</a></h2>
 							</div>
 						</div>
 					</div>
